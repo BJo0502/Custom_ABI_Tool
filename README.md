@@ -16,6 +16,8 @@ End Sub
 ```
 ### Source: https://stackoverflow.com/questions/9379673/excel-vba-delete-empty-rows
 
+### Issue
+How add new values to existing arrays
 
 ### Proposed Solution:
 ```
@@ -35,3 +37,5 @@ TextBox1.Value = vbNullString
 
 End Sub
 ```
+
+### Source: https://www.ozgrid.com/forum/index.php?thread/103189-edit-array-from-a-userform/
