@@ -16,3 +16,22 @@ End Sub
 ```
 ### Source: https://stackoverflow.com/questions/9379673/excel-vba-delete-empty-rows
 
+
+### Proposed Solution:
+```
+Private Sub updateArray_Click()
+
+If TextBox1.Value <> vbNullString Then
+
+ReDim Preserve varData(UBound(varData) + 1)
+
+varData(UBound(varData)) = TextBox1.Value
+
+End If
+
+ComboBox1.AddItem TextBox1.Value
+
+TextBox1.Value = vbNullString
+
+End Sub
+```
