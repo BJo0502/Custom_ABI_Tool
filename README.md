@@ -1,5 +1,8 @@
 # ArcPro Notes
 
+## General Videos:
+https://www.youtube.com/watch?v=8bcGP5otIbI
+
 ### Issue:
 We want the analysts to be able to add new options to the existing picklists if necessary so they can continue to work through their daily observations. We can accomplish this in Excel; however, in order for these changes to be reflected in the hosted feature service we need to update the new information in the domain properties within the .gdb too. This will need to be one of the first steps completed in the overall workflow or additional tools will not work properly.
 
